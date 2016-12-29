@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>管理系统</title>
+    <link rel="stylesheet" type="text/css" href="/static/index.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<button id="teacherbutton">教师表</button>
+<button id="studentbutton">学生表</button>
+<button id="coursebutton">课程表</button>
+<button id="scorebutton">成绩表</button>
+
+<div id="teacherarea" class="tables">
+<table width="50%" style="margin-top: 100px">
+    <thead>
+        <tr>
+            <th>教师姓名</th>
+            <th>性别</th>
+            <th>课程名</th>
+        </tr>
+    </thead>
+<tbody>
+{%for obj in teacher%}
+<tr>
+<td>{{obj.TeacherName}}</td>
+<td>
+{%if obj.Sex == True%}
+男
+{%else%}
+女
+{%endif%}
+
+</td>
+<td>{{obj.CourseId.CourseName}}</td>
+</tr>
+		
+{%endfor%}
+</tbody>
+</table>
+</div>
+
+
+
+
+<div id="coursearea" class="tables">
+<table width="50%" style="margin-top: 100px">
+    <thead>
+        <tr>
+            <th>课程名</th>
+            <th>课程编号</th>
+        </tr>
+    </thead>
+<tbody>
+{%for obj in course%}
+<tr>
+<td>{{obj.CourseName}}</td>
+<td>{{obj.CourseId}}</td>
+</tr>
+		
+{%endfor%}
+</tbody>
+</table>
+</div>
+
+
+
+
+<div id="studentarea" class="tables">
+<table width="50%" style="margin-top: 100px">
+    <thead>
+        <tr>
+            <th>学生姓名</th>
+            <th>学号</th>
+            <th>班别</th>
+            <th>性别</th>
+        </tr>
+    </thead>
+<tbody>
+{%for obj in student%}
+<tr>
+<td>{{obj.StuName}}</td>
+<td>{{obj.StuNumId}}</td>
+<td>{{obj.ClassId.ClassName}}</td>
+<td>
+{%if obj.Sex == True%}
+男
+{%else%}
+女
+{%endif%}
+
+</td>
+</tr>
+		
+{%endfor%}
+</tbody>
+</table>
+</div>
+
+
+<div id="scorearea" class="tables">
+<table width="50%" style="margin-top: 100px" >
+    <thead>
+        <tr>
+            <th>学生姓名</th>
+            <th>课程名</th>
+            <th>成绩</th>
+            <th>学期</th>
+        </tr>
+    </thead>
+<tbody>
+{%for obj in score%}
+
+<tr>
+<td>{{obj.StuNumId.StuName}}</td>
+<td>{{obj.CourseId.CourseName}}</td>
+<td>{{obj.Score}}</td>
+<td>第{{obj.Term}}学期</td>
+</tr>
+		
+{%endfor%}
+</tbody>
+</table>
+<span>学生姓名</span><input type="" id="stname">
+<span>学期</span><input type="text" id="stterm">
+<span>课程名</span><input type="" name="" id="stcourse">
+<button id="search">查找</button>
+<span>成绩为</span>    <input id="myscore">
+<br/><br/>
+<span>学生姓名</span><input type="" id="stName">
+<span>学期</span><input type="text" id="stTerm">&nbsp;&nbsp;
+<button id="avgbutton">平均成绩</button>&nbsp;
+<span>为</span><input id="avgscore">
+
+<br/><br/>
+<span>班级</span><input type="" id="Class">
+<span>课程</span><input type="text" id="Course">&nbsp;&nbsp;
+<span>学期</span><input type="text" id="Trems">
+<button id="avgClassbut">平均成绩</button>&nbsp;
+<span>为</span><input id="avgClasssc">
+<span>通过率为</span><input id="pass">
+    <br/>
+<span>最高分</span><input id="max">
+<span>最低分</span><input id="min">
+
+</div>
+<script type="text/javascript">
+
+$("#search").click(function () {
+	stname = $("#stname").val();
+	stterm = $("#stterm").val();
+	stcourse = $("#stcourse").val();
+$.post("../search",{"stname":stname,"stterm":stterm,"stcourse":stcourse},function (data) {
+    if (data == "nima")
+        alert("请检查输入条件");
+    else
+        $("#myscore").val(data)
+})
+})
+
+$("#avgbutton").click(function () {
+	stname = $("#stName").val();
+	stterm = $("#stTerm").val();
+$.post("../search",{"stname":stname,"stterm":stterm},function (data) {
+
+    if (data == "nima")
+        alert("请检查输入条件");
+    else
+        $("#avgscore").val(data);
+})
+})
+
+$("#avgClassbut").click(function () {
+	Course = $("#Course").val();
+	Class = $("#Class").val();
+	Trems = $("#Trems").val();
+$.post("../search",{"Class":Class,"Course":Course,"Trems":Trems},function (data) {
+    if (data == "nima")
+        alert("请检查输入条件");
+    else
+        var jsonData = $.parseJSON(data);
+        $("#avgClasssc").val(jsonData[0].dataval);
+        $("#pass").val(jsonData[0].passrate)
+        $("#max").val(jsonData[0].max)
+        $("#min").val(jsonData[0].min)
+
+})
+})
+
+
+
+
+
+
+$("body").on("click","#teacherbutton",function(){
+$(".tables").not("#teacherarea").css("display",'none')
+$("#teacherarea").css("display",'block')
+})
+$("body").on("click","#scorebutton",function(){
+$(".tables").not("#scorearea").css("display",'none')
+$("#scorearea").css("display",'block')
+
+})
+$("body").on("click","#studentbutton",function(){
+$(".tables").not("#studentarea").css("display",'none')
+$("#studentarea").css("display",'block')
+
+})
+$("body").on("click","#coursebutton",function(){
+$(".tables").not("#coursearea").css("display",'none')
+$("#coursearea").css("display",'block')
+
+})
+
+</script>
+
+</body>
+</html>

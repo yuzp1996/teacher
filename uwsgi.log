@@ -1,0 +1,1951 @@
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Apr  3 11:09:47 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x157f4d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+  File "./django_wsgi.py", line 1
+    mport os
+           ^
+SyntaxError: invalid syntax
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 19439, cores: 1)
+spawned uWSGI worker 2 (pid: 19440, cores: 1)
+spawned uWSGI worker 3 (pid: 19441, cores: 1)
+spawned uWSGI worker 4 (pid: 19442, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/1] 183.198.61.74 () {42 vars in 772 bytes} [Mon Apr  3 11:10:22 2017] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/2] 183.198.61.74 () {42 vars in 752 bytes} [Mon Apr  3 11:10:22 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/3] 183.198.61.74 () {44 vars in 803 bytes} [Mon Apr  3 11:10:24 2017] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/4] 183.198.61.74 () {46 vars in 805 bytes} [Mon Apr  3 11:10:24 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/5] 183.198.61.74 () {42 vars in 772 bytes} [Mon Apr  3 11:13:24 2017] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/6] 183.198.61.74 () {42 vars in 752 bytes} [Mon Apr  3 11:13:24 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/7] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 11:15:18 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/8] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:15:18 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/9] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:15:20 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/10] 183.198.61.74 () {46 vars in 806 bytes} [Mon Apr  3 11:15:20 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/11] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:15:36 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/12] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:15:36 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/13] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:16:51 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/14] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:16:51 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/15] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 11:17:15 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/16] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:17:15 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/17] 183.198.61.74 () {42 vars in 762 bytes} [Mon Apr  3 11:17:20 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/18] 183.198.61.74 () {42 vars in 747 bytes} [Mon Apr  3 11:17:20 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/19] 183.198.61.74 () {42 vars in 762 bytes} [Mon Apr  3 11:25:37 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/20] 183.198.61.74 () {42 vars in 747 bytes} [Mon Apr  3 11:25:37 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/21] 183.198.61.74 () {42 vars in 762 bytes} [Mon Apr  3 11:25:54 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/22] 183.198.61.74 () {42 vars in 747 bytes} [Mon Apr  3 11:25:54 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/23] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 11:26:33 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/24] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:26:33 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/25] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:32:27 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/26] 183.198.61.74 () {46 vars in 806 bytes} [Mon Apr  3 11:32:27 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/27] 183.198.61.74 () {42 vars in 772 bytes} [Mon Apr  3 11:32:46 2017] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/28] 183.198.61.74 () {42 vars in 752 bytes} [Mon Apr  3 11:32:47 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/29] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 11:33:34 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/30] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 11:33:34 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/31] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:33:34 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/32] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:37 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/33] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:37 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/34] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:38 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/35] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:38 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/36] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:38 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/37] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:39 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/38] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:39 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/39] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:39 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/40] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:40 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/41] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:40 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/42] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:40 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/43] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:40 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/44] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:41 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/45] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:41 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/46] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:41 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/47] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:41 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/48] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:41 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/49] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:41 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/50] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:41 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/51] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:41 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/52] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:41 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/53] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:42 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/54] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:42 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/55] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:42 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/56] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:42 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/57] 183.198.61.74 () {44 vars in 805 bytes} [Mon Apr  3 11:36:42 2017] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/58] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 11:36:42 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/59] 183.198.61.74 () {42 vars in 762 bytes} [Mon Apr  3 11:40:53 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/60] 183.198.61.74 () {42 vars in 762 bytes} [Mon Apr  3 11:40:54 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19439|app: -1|req: -1/61] 183.198.61.74 () {42 vars in 747 bytes} [Mon Apr  3 11:40:54 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19441|app: -1|req: -1/62] 183.198.61.74 () {42 vars in 737 bytes} [Mon Apr  3 12:46:46 2017] GET /blog => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19440|app: -1|req: -1/63] 183.198.61.74 () {40 vars in 656 bytes} [Mon Apr  3 12:46:46 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 19442|app: -1|req: -1/64] 183.198.61.74 () {40 vars in 716 bytes} [Mon Apr  3 12:46:46 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Apr  3 12:53:30 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Apr  3 12:58:02 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x198d4d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x198d4d0 pid: 25931 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 25931, cores: 1)
+spawned uWSGI worker 2 (pid: 25934, cores: 1)
+spawned uWSGI worker 3 (pid: 25935, cores: 1)
+spawned uWSGI worker 4 (pid: 25936, cores: 1)
+[pid: 25931|app: 0|req: 1/1] 183.198.61.74 () {42 vars in 737 bytes} [Mon Apr  3 04:58:08 2017] GET /blog => generated 78 bytes in 24 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25934|app: 0|req: 1/2] 183.198.61.74 () {42 vars in 739 bytes} [Mon Apr  3 04:58:12 2017] GET /index => generated 0 bytes in 12 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 25935|app: 0|req: 1/3] 183.198.61.74 () {42 vars in 741 bytes} [Mon Apr  3 04:58:12 2017] GET /index/ => generated 4146 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25934|app: 0|req: 2/4] 183.198.61.74 () {40 vars in 656 bytes} [Mon Apr  3 04:58:22 2017] GET /index/ => generated 4146 bytes in 28 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25935|app: 0|req: 2/5] 183.198.61.74 () {38 vars in 571 bytes} [Mon Apr  3 04:58:22 2017] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25936|app: 0|req: 1/6] 183.198.61.74 () {38 vars in 631 bytes} [Mon Apr  3 04:58:23 2017] GET /favicon.ico => generated 85 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25934|app: 0|req: 3/7] 183.198.61.74 () {40 vars in 656 bytes} [Mon Apr  3 05:04:27 2017] GET /index/ => generated 4146 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Apr  3 13:12:49 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24624d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24624d0 pid: 26780 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 26780, cores: 1)
+spawned uWSGI worker 2 (pid: 26783, cores: 1)
+spawned uWSGI worker 3 (pid: 26784, cores: 1)
+spawned uWSGI worker 4 (pid: 26785, cores: 1)
+[pid: 26780|app: 0|req: 1/1] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 05:13:43 2017] GET /index/ => generated 4146 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 1/2] 183.198.61.74 () {42 vars in 753 bytes} [Mon Apr  3 05:13:43 2017] GET /favicon.ico => generated 85 bytes in 23 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 1/3] 183.198.61.74 () {42 vars in 772 bytes} [Mon Apr  3 05:14:04 2017] GET /index => generated 0 bytes in 9 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 2/4] 183.198.61.74 () {42 vars in 774 bytes} [Mon Apr  3 05:14:04 2017] GET /index/ => generated 4146 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 2/5] 183.198.61.74 () {42 vars in 729 bytes} [Mon Apr  3 05:14:46 2017] GET / => generated 74 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 3/6] 183.198.61.74 () {40 vars in 656 bytes} [Mon Apr  3 05:14:54 2017] GET /index/ => generated 4146 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 3/7] 183.198.61.74 () {42 vars in 832 bytes} [Mon Apr  3 05:21:21 2017] GET /index/ => generated 4146 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 4/8] 183.198.61.74 () {42 vars in 815 bytes} [Mon Apr  3 05:21:21 2017] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 1/9] 183.198.61.74 () {44 vars in 863 bytes} [Mon Apr  3 05:21:25 2017] GET /index/ => generated 4146 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 5/10] 183.198.61.74 () {42 vars in 832 bytes} [Mon Apr  3 05:22:04 2017] GET /index/ => generated 4146 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 4/11] 183.198.61.74 () {44 vars in 863 bytes} [Mon Apr  3 05:22:08 2017] GET /index/ => generated 4146 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 6/12] 183.198.61.74 () {42 vars in 784 bytes} [Mon Apr  3 05:22:13 2017] GET /index/ => generated 4146 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 5/13] 183.198.61.74 () {42 vars in 832 bytes} [Mon Apr  3 05:22:22 2017] GET /index/ => generated 4146 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 2/14] 183.198.61.74 () {44 vars in 856 bytes} [Mon Apr  3 05:23:11 2017] GET /index/ => generated 4146 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 7/15] 183.198.61.74 () {44 vars in 856 bytes} [Mon Apr  3 05:23:14 2017] GET /index/ => generated 4146 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 6/16] 183.198.61.74 () {42 vars in 825 bytes} [Mon Apr  3 05:23:27 2017] GET /index/ => generated 4146 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 3/17] 183.198.61.74 () {40 vars in 655 bytes} [Mon Apr  3 05:24:51 2017] GET /blog => generated 78 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26780|app: 0|req: 2/18] 183.198.61.74 () {40 vars in 657 bytes} [Mon Apr  3 05:24:58 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 8/19] 183.198.61.74 () {40 vars in 659 bytes} [Mon Apr  3 05:24:58 2017] GET /index/ => generated 4146 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 7/20] 183.198.61.74 () {40 vars in 659 bytes} [Mon Apr  3 05:25:15 2017] GET /admin/ => generated 0 bytes in 35 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 9/21] 183.198.61.74 () {40 vars in 696 bytes} [Mon Apr  3 05:25:15 2017] GET /admin/login/?next=/admin/ => generated 1653 bytes in 75 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 8/22] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:25:21 2017] POST /admin/login/?next=/admin/ => generated 1816 bytes in 166 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 10/23] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:25:32 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 178 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 9/24] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:25:39 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 169 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 11/25] 183.198.61.74 () {50 vars in 1001 bytes} [Mon Apr  3 05:26:36 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 148 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 10/26] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:26:41 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 12/27] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:26:49 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 11/28] 183.198.61.74 () {50 vars in 1001 bytes} [Mon Apr  3 05:28:08 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 13/29] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:28:14 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 27 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 12/30] 183.198.61.74 () {42 vars in 748 bytes} [Mon Apr  3 05:28:35 2017] GET /index/ => generated 4146 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 4/31] 183.198.61.74 () {42 vars in 748 bytes} [Mon Apr  3 05:30:17 2017] GET /admin/ => generated 0 bytes in 38 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 14/32] 183.198.61.74 () {42 vars in 785 bytes} [Mon Apr  3 05:30:17 2017] GET /admin/login/?next=/admin/ => generated 1653 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 13/33] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:30:25 2017] POST /admin/login/?next=/admin/ => generated 1814 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 15/34] 183.198.61.74 () {48 vars in 970 bytes} [Mon Apr  3 05:30:35 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 208 msecs (HTTP/1.1 302) 9 headers in 558 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 14/35] 183.198.61.74 () {44 vars in 860 bytes} [Mon Apr  3 05:30:35 2017] GET /admin/ => generated 5069 bytes in 72 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 16/36] 183.198.61.74 () {42 vars in 788 bytes} [Mon Apr  3 05:32:12 2017] GET /blog => generated 78 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26780|app: 0|req: 3/37] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 05:32:22 2017] GET /index/ => generated 4146 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 5/38] 183.198.61.74 () {44 vars in 823 bytes} [Mon Apr  3 05:33:44 2017] GET /index/ => generated 4146 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 17/39] 183.198.61.74 () {44 vars in 823 bytes} [Mon Apr  3 05:33:45 2017] GET /index/ => generated 4146 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 15/40] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:47 2017] GET /admin/ => generated 5069 bytes in 38 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 18/41] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:47 2017] GET /admin/ => generated 5069 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 16/42] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:48 2017] GET /admin/ => generated 5069 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 19/43] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:48 2017] GET /admin/ => generated 5069 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 17/44] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:48 2017] GET /admin/ => generated 5069 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 20/45] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:49 2017] GET /admin/ => generated 5069 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 18/46] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:49 2017] GET /admin/ => generated 5069 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 21/47] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:33:49 2017] GET /admin/ => generated 5069 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 19/48] 183.198.61.74 () {46 vars in 891 bytes} [Mon Apr  3 05:34:12 2017] GET /admin/ => generated 5069 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 22/49] 183.198.61.74 () {44 vars in 823 bytes} [Mon Apr  3 05:34:16 2017] GET /index/ => generated 4146 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 6/50] 183.198.61.74 () {44 vars in 881 bytes} [Mon Apr  3 05:34:26 2017] GET /admin/managesys/class/add/ => generated 3857 bytes in 52 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 23/51] 183.198.61.74 () {42 vars in 780 bytes} [Mon Apr  3 05:34:27 2017] GET /admin/jsi18n/ => generated 3217 bytes in 54 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE4\xB8\x80\xE7\x8F\xAD' for column 'ClassName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE4\xB8\x80\xE7\x8F\xAD' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26784|app: 0|req: 20/52] 183.198.61.74 () {48 vars in 1094 bytes} [Mon Apr  3 05:34:38 2017] POST /admin/managesys/class/add/ => generated 0 bytes in 36 msecs (HTTP/1.1 302) 8 headers in 561 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 24/53] 183.198.61.74 () {44 vars in 1138 bytes} [Mon Apr  3 05:34:38 2017] GET /admin/managesys/class/add/ => generated 4071 bytes in 41 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 21/54] 183.198.61.74 () {42 vars in 780 bytes} [Mon Apr  3 05:34:38 2017] GET /admin/jsi18n/ => generated 3217 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE4\xBA\x8C\xE7\x8F\xAD' for column 'ClassName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE4\xBA\x8C\xE7\x8F\xAD' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 25/55] 183.198.61.74 () {48 vars in 1094 bytes} [Mon Apr  3 05:34:43 2017] POST /admin/managesys/class/add/ => generated 0 bytes in 44 msecs (HTTP/1.1 302) 8 headers in 561 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 7/56] 183.198.61.74 () {44 vars in 1138 bytes} [Mon Apr  3 05:34:43 2017] GET /admin/managesys/class/add/ => generated 4071 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 26/57] 183.198.61.74 () {42 vars in 780 bytes} [Mon Apr  3 05:34:43 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 22/58] 183.198.61.74 () {48 vars in 1092 bytes} [Mon Apr  3 05:34:45 2017] POST /admin/managesys/class/add/ => generated 4000 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 27/59] 183.198.61.74 () {42 vars in 780 bytes} [Mon Apr  3 05:34:45 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 8/60] 183.198.61.74 () {44 vars in 861 bytes} [Mon Apr  3 05:34:51 2017] GET /admin/ => generated 5666 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 28/61] 183.198.61.74 () {44 vars in 883 bytes} [Mon Apr  3 05:34:55 2017] GET /admin/managesys/course/add/ => generated 3870 bytes in 48 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 23/62] 183.198.61.74 () {42 vars in 781 bytes} [Mon Apr  3 05:34:55 2017] GET /admin/jsi18n/ => generated 3217 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE8\x8B\xB1\xE8\xAF\xAD' for column 'CourseName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE8\x8B\xB1\xE8\xAF\xAD' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 29/63] 183.198.61.74 () {48 vars in 1099 bytes} [Mon Apr  3 05:34:59 2017] POST /admin/managesys/course/add/ => generated 0 bytes in 33 msecs (HTTP/1.1 302) 8 headers in 565 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 24/64] 183.198.61.74 () {44 vars in 1144 bytes} [Mon Apr  3 05:35:00 2017] GET /admin/managesys/course/add/ => generated 4087 bytes in 46 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 30/65] 183.198.61.74 () {42 vars in 781 bytes} [Mon Apr  3 05:35:00 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE6\x95\xB0\xE5\xAD\xA6' for column 'CourseName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE6\x95\xB0\xE5\xAD\xA6' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26784|app: 0|req: 25/66] 183.198.61.74 () {48 vars in 1099 bytes} [Mon Apr  3 05:35:03 2017] POST /admin/managesys/course/add/ => generated 0 bytes in 98 msecs (HTTP/1.1 302) 8 headers in 565 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 31/67] 183.198.61.74 () {44 vars in 1144 bytes} [Mon Apr  3 05:35:03 2017] GET /admin/managesys/course/add/ => generated 4087 bytes in 43 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 26/68] 183.198.61.74 () {42 vars in 781 bytes} [Mon Apr  3 05:35:03 2017] GET /admin/jsi18n/ => generated 3217 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE8\xAF\xAD\xE6\x96\x87' for column 'CourseName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE8\xAF\xAD\xE6\x96\x87' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 32/69] 183.198.61.74 () {48 vars in 1099 bytes} [Mon Apr  3 05:35:07 2017] POST /admin/managesys/course/add/ => generated 0 bytes in 48 msecs (HTTP/1.1 302) 8 headers in 565 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 27/70] 183.198.61.74 () {44 vars in 1144 bytes} [Mon Apr  3 05:35:07 2017] GET /admin/managesys/course/add/ => generated 4087 bytes in 49 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 33/71] 183.198.61.74 () {42 vars in 781 bytes} [Mon Apr  3 05:35:08 2017] GET /admin/jsi18n/ => generated 3217 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 28/72] 183.198.61.74 () {44 vars in 882 bytes} [Mon Apr  3 05:35:10 2017] GET /admin/managesys/ => generated 3870 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 34/73] 183.198.61.74 () {44 vars in 895 bytes} [Mon Apr  3 05:35:14 2017] GET /admin/managesys/student/add/ => generated 6033 bytes in 88 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 29/74] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:35:14 2017] GET /admin/jsi18n/ => generated 3217 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x80' for column 'StuName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x80' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 35/75] 183.198.61.74 () {48 vars in 1100 bytes} [Mon Apr  3 05:35:28 2017] POST /admin/managesys/student/add/ => generated 0 bytes in 48 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 30/76] 183.198.61.74 () {44 vars in 1150 bytes} [Mon Apr  3 05:35:28 2017] GET /admin/managesys/student/add/ => generated 6253 bytes in 59 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 36/77] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:35:29 2017] GET /admin/jsi18n/ => generated 3217 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x8C' for column 'StuName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x8C' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26784|app: 0|req: 31/78] 183.198.61.74 () {48 vars in 1102 bytes} [Mon Apr  3 05:35:42 2017] POST /admin/managesys/student/add/ => generated 0 bytes in 35 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 37/79] 183.198.61.74 () {44 vars in 1150 bytes} [Mon Apr  3 05:35:42 2017] GET /admin/managesys/student/add/ => generated 6253 bytes in 43 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 32/80] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:35:42 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x89' for column 'StuName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x89' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26785|app: 0|req: 9/81] 183.198.61.74 () {48 vars in 1102 bytes} [Mon Apr  3 05:35:50 2017] POST /admin/managesys/student/add/ => generated 0 bytes in 40 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 38/82] 183.198.61.74 () {44 vars in 1150 bytes} [Mon Apr  3 05:35:50 2017] GET /admin/managesys/student/add/ => generated 6253 bytes in 47 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 33/83] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:35:51 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE5\x9B\x9B' for column 'StuName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE5\x9B\x9B' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26785|app: 0|req: 10/84] 183.198.61.74 () {48 vars in 1100 bytes} [Mon Apr  3 05:36:00 2017] POST /admin/managesys/student/add/ => generated 0 bytes in 42 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 39/85] 183.198.61.74 () {44 vars in 1150 bytes} [Mon Apr  3 05:36:00 2017] GET /admin/managesys/student/add/ => generated 6253 bytes in 58 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 34/86] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:36:00 2017] GET /admin/jsi18n/ => generated 3217 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x94' for column 'StuName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x94' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 40/87] 183.198.61.74 () {48 vars in 1102 bytes} [Mon Apr  3 05:36:38 2017] POST /admin/managesys/student/add/ => generated 0 bytes in 35 msecs (HTTP/1.1 302) 8 headers in 530 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 35/88] 183.198.61.74 () {44 vars in 1107 bytes} [Mon Apr  3 05:36:38 2017] GET /admin/managesys/student/ => generated 5282 bytes in 44 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 41/89] 183.198.61.74 () {42 vars in 778 bytes} [Mon Apr  3 05:36:38 2017] GET /admin/jsi18n/ => generated 3217 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 36/90] 183.198.61.74 () {44 vars in 859 bytes} [Mon Apr  3 05:36:44 2017] GET /admin/ => generated 7948 bytes in 43 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 42/91] 183.198.61.74 () {44 vars in 877 bytes} [Mon Apr  3 05:36:46 2017] GET /admin/managesys/teacher/ => generated 3074 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 37/92] 183.198.61.74 () {42 vars in 778 bytes} [Mon Apr  3 05:36:46 2017] GET /admin/jsi18n/ => generated 3217 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 43/93] 183.198.61.74 () {44 vars in 903 bytes} [Mon Apr  3 05:36:49 2017] GET /admin/managesys/teacher/add/ => generated 6101 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 38/94] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:36:49 2017] GET /admin/jsi18n/ => generated 3217 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x80...' for column 'TeacherName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x80...' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 44/95] 183.198.61.74 () {48 vars in 1102 bytes} [Mon Apr  3 05:37:08 2017] POST /admin/managesys/teacher/add/ => generated 0 bytes in 41 msecs (HTTP/1.1 302) 8 headers in 583 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 39/96] 183.198.61.74 () {44 vars in 1164 bytes} [Mon Apr  3 05:37:08 2017] GET /admin/managesys/teacher/add/ => generated 6327 bytes in 62 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 45/97] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:37:08 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x8C...' for column 'TeacherName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xBA\x8C...' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26784|app: 0|req: 40/98] 183.198.61.74 () {48 vars in 1096 bytes} [Mon Apr  3 05:37:28 2017] POST /admin/managesys/teacher/add/ => generated 0 bytes in 41 msecs (HTTP/1.1 302) 8 headers in 583 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 46/99] 183.198.61.74 () {44 vars in 1164 bytes} [Mon Apr  3 05:37:28 2017] GET /admin/managesys/teacher/add/ => generated 6327 bytes in 46 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 41/100] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:37:28 2017] GET /admin/jsi18n/ => generated 3217 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x89...' for column 'TeacherName' at row 1
+  return self.cursor.execute(query, args)
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:110: Warning: Incorrect string value: '\xE5\xB0\x8F\xE4\xB8\x89...' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+[pid: 26783|app: 0|req: 47/101] 183.198.61.74 () {48 vars in 1098 bytes} [Mon Apr  3 05:37:38 2017] POST /admin/managesys/teacher/add/ => generated 0 bytes in 34 msecs (HTTP/1.1 302) 8 headers in 583 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 42/102] 183.198.61.74 () {44 vars in 1164 bytes} [Mon Apr  3 05:37:39 2017] GET /admin/managesys/teacher/add/ => generated 6327 bytes in 43 msecs (HTTP/1.1 200) 8 headers in 487 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 48/103] 183.198.61.74 () {42 vars in 782 bytes} [Mon Apr  3 05:37:39 2017] GET /admin/jsi18n/ => generated 3217 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 11/104] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 05:37:43 2017] GET /index/ => generated 4777 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 49/105] 183.198.61.74 () {44 vars in 917 bytes} [Mon Apr  3 05:38:37 2017] GET /admin/managesys/teacher/3/change/ => generated 6339 bytes in 52 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 43/106] 183.198.61.74 () {42 vars in 787 bytes} [Mon Apr  3 05:38:37 2017] GET /admin/jsi18n/ => generated 3217 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 12/107] 183.198.61.74 () {50 vars in 1045 bytes} [Mon Apr  3 05:38:52 2017] POST /admin/login/?next=/admin/ => generated 1007 bytes in 91 msecs (HTTP/1.1 403) 6 headers in 243 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 50/108] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 05:38:59 2017] GET /admin/ => generated 7964 bytes in 34 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 44/109] 183.198.61.74 () {42 vars in 813 bytes} [Mon Apr  3 05:50:20 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26780|app: 0|req: 4/110] 183.198.61.74 () {42 vars in 821 bytes} [Mon Apr  3 05:50:28 2017] GET /blog => generated 78 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 13/111] 183.198.61.74 () {42 vars in 823 bytes} [Mon Apr  3 05:50:34 2017] GET /index => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 14/112] 183.198.61.74 () {42 vars in 825 bytes} [Mon Apr  3 05:50:34 2017] GET /index/ => generated 4777 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26783|app: 0|req: 51/113] 183.198.61.74 () {42 vars in 825 bytes} [Mon Apr  3 05:55:26 2017] GET /index/ => generated 4777 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 45/114] 183.198.61.74 () {42 vars in 823 bytes} [Mon Apr  3 05:55:32 2017] GET /blog/ => generated 79 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26780|app: 0|req: 5/115] 183.198.61.74 () {42 vars in 821 bytes} [Mon Apr  3 05:55:35 2017] GET /blog => generated 78 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26785|app: 0|req: 15/116] 183.198.61.74 () {42 vars in 788 bytes} [Mon Apr  3 05:59:55 2017] GET /blog => generated 78 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26784|app: 0|req: 46/117] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 05:59:58 2017] GET /admin/ => generated 7964 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Apr  3 14:46:06 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1cd64d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1cd64d0 pid: 32456 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32456, cores: 1)
+spawned uWSGI worker 2 (pid: 32459, cores: 1)
+spawned uWSGI worker 3 (pid: 32460, cores: 1)
+spawned uWSGI worker 4 (pid: 32461, cores: 1)
+[pid: 32456|app: 0|req: 1/1] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 06:46:17 2017] GET /index/ => generated 4777 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 1/2] 183.198.61.74 () {42 vars in 792 bytes} [Mon Apr  3 06:53:23 2017] GET /index/ => generated 4777 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 1/3] 183.198.61.74 () {42 vars in 825 bytes} [Mon Apr  3 07:21:53 2017] GET /index/ => generated 4777 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 2/4] 183.198.61.74 () {38 vars in 625 bytes} [Mon Apr  3 07:31:52 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 1/5] 183.198.61.74 () {38 vars in 627 bytes} [Mon Apr  3 07:31:52 2017] GET /index/ => generated 4777 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 3/6] 183.198.61.74 () {38 vars in 607 bytes} [Mon Apr  3 07:31:53 2017] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 2/7] 183.198.61.74 () {38 vars in 637 bytes} [Mon Apr  3 07:31:53 2017] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 2/8] 183.198.61.74 () {40 vars in 658 bytes} [Mon Apr  3 07:35:19 2017] GET /index/ => generated 4777 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 4/9] 183.198.61.74 () {38 vars in 630 bytes} [Mon Apr  3 07:36:55 2017] GET /blog => generated 78 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 3/10] 183.198.61.74 () {38 vars in 614 bytes} [Mon Apr  3 07:36:55 2017] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 2/11] 183.198.61.74 () {38 vars in 644 bytes} [Mon Apr  3 07:36:55 2017] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 5/12] 183.198.61.74 () {38 vars in 632 bytes} [Mon Apr  3 07:37:00 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 4/13] 183.198.61.74 () {38 vars in 634 bytes} [Mon Apr  3 07:37:00 2017] GET /index/ => generated 4777 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 6/14] 183.198.61.74 () {40 vars in 665 bytes} [Mon Apr  3 07:38:11 2017] GET /index/ => generated 4777 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 5/15] 183.198.61.74 () {38 vars in 615 bytes} [Mon Apr  3 07:40:27 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 3/16] 183.198.61.74 () {38 vars in 627 bytes} [Mon Apr  3 07:40:35 2017] GET /index/ => generated 4777 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 7/17] 183.198.61.74 () {38 vars in 627 bytes} [Mon Apr  3 07:41:06 2017] GET /index/ => generated 4777 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 6/18] 101.226.68.215 () {38 vars in 659 bytes} [Mon Apr  3 08:05:13 2017] GET /admin/jsi18n => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 129 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 8/19] 183.57.53.177 () {38 vars in 644 bytes} [Mon Apr  3 08:05:13 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 4/20] 101.226.68.215 () {40 vars in 716 bytes} [Mon Apr  3 08:05:13 2017] GET /admin/jsi18n/ => generated 0 bytes in 38 msecs (HTTP/1.1 302) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 9/21] 183.57.53.177 () {40 vars in 694 bytes} [Mon Apr  3 08:05:13 2017] GET /index/ => generated 4777 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 7/22] 101.226.68.215 () {40 vars in 754 bytes} [Mon Apr  3 08:05:13 2017] GET /admin/login/?next=/admin/jsi18n/ => generated 1667 bytes in 75 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 10/23] 61.151.218.118 () {38 vars in 702 bytes} [Mon Apr  3 08:05:22 2017] GET /admin/jsi18n => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 129 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 5/24] 101.226.65.105 () {38 vars in 623 bytes} [Mon Apr  3 08:05:22 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 6/25] 61.151.218.118 () {40 vars in 759 bytes} [Mon Apr  3 08:05:22 2017] GET /admin/jsi18n/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 3/26] 101.226.65.105 () {40 vars in 673 bytes} [Mon Apr  3 08:05:22 2017] GET /index/ => generated 4777 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 11/27] 61.151.218.118 () {40 vars in 797 bytes} [Mon Apr  3 08:05:22 2017] GET /admin/login/?next=/admin/jsi18n/ => generated 1667 bytes in 49 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 8/28] 183.198.61.74 () {38 vars in 627 bytes} [Mon Apr  3 08:20:02 2017] GET /index/ => generated 4777 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 12/29] 101.226.89.115 () {38 vars in 652 bytes} [Mon Apr  3 08:31:53 2017] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 7/30] 101.226.89.115 () {40 vars in 702 bytes} [Mon Apr  3 08:31:53 2017] GET /admin/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 4/31] 101.226.89.115 () {40 vars in 740 bytes} [Mon Apr  3 08:31:53 2017] GET /admin/login/?next=/admin/ => generated 1653 bytes in 48 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 13/32] 61.151.228.22 () {38 vars in 606 bytes} [Mon Apr  3 09:11:40 2017] GET /blog => generated 78 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 8/33] 101.226.33.208 () {38 vars in 659 bytes} [Mon Apr  3 09:13:56 2017] GET /admin/managesys/student => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 9/34] 180.153.81.212 () {38 vars in 570 bytes} [Mon Apr  3 09:13:56 2017] GET /blog => generated 78 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 9/35] 101.226.33.208 () {40 vars in 727 bytes} [Mon Apr  3 09:13:56 2017] GET /admin/managesys/student/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 10/36] 101.226.33.208 () {40 vars in 765 bytes} [Mon Apr  3 09:13:56 2017] GET /admin/login/?next=/admin/managesys/student/ => generated 1689 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 14/37] 180.153.201.79 () {38 vars in 667 bytes} [Mon Apr  3 09:16:14 2017] GET /admin/managesys/student/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 144 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 5/38] 180.153.201.79 () {40 vars in 739 bytes} [Mon Apr  3 09:16:14 2017] GET /admin/managesys/student/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 314 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 10/39] 180.153.201.79 () {40 vars in 777 bytes} [Mon Apr  3 09:16:14 2017] GET /admin/login/?next=/admin/managesys/student/add/ => generated 1697 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 15/40] 101.226.64.174 () {38 vars in 686 bytes} [Mon Apr  3 09:23:53 2017] GET /admin/login/?next%3D/admin => generated 1654 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 11/41] 101.226.65.107 () {38 vars in 616 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/managesys/teacher/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 144 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 11/42] 101.226.33.239 () {38 vars in 706 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/managesys/teacher/3/change => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 149 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 6/43] 101.226.65.107 () {40 vars in 688 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/managesys/teacher/add/ => generated 0 bytes in 6 msecs (HTTP/1.1 302) 7 headers in 314 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 12/44] 101.226.66.191 () {38 vars in 664 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/login/?next%3D/admin => generated 1654 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 12/45] 101.226.33.239 () {40 vars in 783 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/managesys/teacher/3/change/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 319 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 16/46] 101.226.65.107 () {40 vars in 726 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/login/?next=/admin/managesys/teacher/add/ => generated 1697 bytes in 27 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 13/47] 101.226.33.239 () {40 vars in 821 bytes} [Mon Apr  3 09:24:02 2017] GET /admin/login/?next=/admin/managesys/teacher/3/change/ => generated 1707 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 17/48] 180.153.81.203 () {38 vars in 562 bytes} [Mon Apr  3 09:34:07 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 7/49] 112.90.82.218 () {38 vars in 680 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/managesys/teacher => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 13/50] 101.226.64.174 () {38 vars in 685 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/managesys/class/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 8/51] 101.226.64.174 () {40 vars in 755 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/managesys/class/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 312 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 14/52] 112.90.82.218 () {40 vars in 748 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/managesys/teacher/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 18/53] 101.226.64.174 () {40 vars in 793 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/login/?next=/admin/managesys/class/add/ => generated 1693 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 14/54] 112.90.82.218 () {40 vars in 786 bytes} [Mon Apr  3 09:46:07 2017] GET /admin/login/?next=/admin/managesys/teacher/ => generated 1689 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 19/55] 180.163.2.88 () {38 vars in 726 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/managesys/class/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 9/56] 112.65.193.14 () {38 vars in 723 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/managesys/teacher => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 15/57] 180.163.2.88 () {40 vars in 796 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/managesys/class/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 312 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 10/58] 180.163.2.88 () {40 vars in 834 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/login/?next=/admin/managesys/class/add/ => generated 1693 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 20/59] 112.65.193.14 () {40 vars in 791 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/managesys/teacher/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 16/60] 112.65.193.14 () {40 vars in 829 bytes} [Mon Apr  3 09:46:15 2017] GET /admin/login/?next=/admin/managesys/teacher/ => generated 1689 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 21/61] 180.163.1.46 () {38 vars in 607 bytes} [Mon Apr  3 09:48:37 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 11/62] 180.163.1.46 () {40 vars in 657 bytes} [Mon Apr  3 09:48:37 2017] GET /index/ => generated 4777 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 22/63] 101.226.89.116 () {38 vars in 627 bytes} [Mon Apr  3 10:55:36 2017] GET /admin/login/?next%3D/admin/jsi18n => generated 1661 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 15/64] 101.226.85.67 () {38 vars in 665 bytes} [Mon Apr  3 11:17:40 2017] GET /admin/jsi18n => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 129 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 17/65] 101.226.85.67 () {40 vars in 722 bytes} [Mon Apr  3 11:17:40 2017] GET /admin/jsi18n/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 12/66] 101.226.85.67 () {40 vars in 760 bytes} [Mon Apr  3 11:17:40 2017] GET /admin/login/?next=/admin/jsi18n/ => generated 1667 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 23/67] 180.153.81.203 () {38 vars in 737 bytes} [Mon Apr  3 11:36:17 2017] GET /admin/login/?next%3D/admin/managesys/teacher/add => generated 1676 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 16/68] 101.226.69.246 () {38 vars in 649 bytes} [Mon Apr  3 11:43:39 2017] GET /admin/managesys/class/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 18/69] 101.226.69.246 () {40 vars in 719 bytes} [Mon Apr  3 11:43:39 2017] GET /admin/managesys/class/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 312 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 13/70] 101.226.69.246 () {40 vars in 757 bytes} [Mon Apr  3 11:43:39 2017] GET /admin/login/?next=/admin/managesys/class/add/ => generated 1693 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 24/71] 180.163.2.118 () {38 vars in 687 bytes} [Mon Apr  3 12:11:52 2017] GET /admin/managesys/student => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 19/72] 180.163.2.118 () {40 vars in 755 bytes} [Mon Apr  3 12:11:52 2017] GET /admin/managesys/student/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 17/73] 180.163.2.118 () {40 vars in 793 bytes} [Mon Apr  3 12:11:52 2017] GET /admin/login/?next=/admin/managesys/student/ => generated 1689 bytes in 14 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 25/74] 180.163.2.118 () {38 vars in 699 bytes} [Mon Apr  3 12:58:40 2017] GET /admin/login/?next%3D/admin/managesys/teacher => generated 1672 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 18/75] 183.57.53.197 () {38 vars in 644 bytes} [Mon Apr  3 13:37:52 2017] GET /index => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 20/76] 183.57.53.197 () {40 vars in 694 bytes} [Mon Apr  3 13:37:52 2017] GET /index/ => generated 4777 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 26/77] 140.207.185.107 () {38 vars in 734 bytes} [Mon Apr  3 14:13:27 2017] GET /admin/login/?next%3D/admin/managesys/class/add => generated 1674 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 19/78] 183.57.53.196 () {38 vars in 684 bytes} [Mon Apr  3 14:56:01 2017] GET /admin/managesys/class/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 21/79] 183.57.53.196 () {40 vars in 754 bytes} [Mon Apr  3 14:56:01 2017] GET /admin/managesys/class/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 312 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 14/80] 183.57.53.196 () {40 vars in 792 bytes} [Mon Apr  3 14:56:01 2017] GET /admin/login/?next=/admin/managesys/class/add/ => generated 1693 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 27/81] 112.90.82.218 () {38 vars in 725 bytes} [Mon Apr  3 18:37:50 2017] GET /admin/login/?next%3D/admin/managesys/class/add => generated 1674 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 20/82] 101.226.65.107 () {38 vars in 689 bytes} [Mon Apr  3 18:37:59 2017] GET /admin/login/?next%3D/admin/managesys/class/add => generated 1674 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 28/83] 101.226.66.187 () {38 vars in 737 bytes} [Mon Apr  3 18:39:04 2017] GET /admin/login/?next%253D/admin/managesys/class/add => generated 1676 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 21/84] 101.226.33.220 () {38 vars in 653 bytes} [Mon Apr  3 21:18:20 2017] GET /admin/managesys/teacher/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 144 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 22/85] 101.226.33.220 () {40 vars in 725 bytes} [Mon Apr  3 21:18:20 2017] GET /admin/managesys/teacher/add/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 314 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 15/86] 101.226.33.220 () {40 vars in 763 bytes} [Mon Apr  3 21:18:20 2017] GET /admin/login/?next=/admin/managesys/teacher/add/ => generated 1697 bytes in 13 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 29/87] 101.226.89.122 () {38 vars in 686 bytes} [Mon Apr  3 21:20:58 2017] GET /admin/login/?next%3D/admin/managesys/student => generated 1672 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 22/88] 180.163.1.46 () {38 vars in 655 bytes} [Mon Apr  3 23:58:07 2017] GET /admin/login/?next%3D/admin/managesys/teacher/add => generated 1676 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 30/89] 101.226.89.120 () {38 vars in 650 bytes} [Tue Apr  4 00:32:58 2017] GET /admin/managesys/course/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 143 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 23/90] 101.226.89.120 () {40 vars in 721 bytes} [Tue Apr  4 00:32:58 2017] GET /admin/managesys/course/add/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 313 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 16/91] 101.226.89.120 () {40 vars in 759 bytes} [Tue Apr  4 00:32:58 2017] GET /admin/login/?next=/admin/managesys/course/add/ => generated 1695 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 31/92] 180.153.214.192 () {38 vars in 707 bytes} [Tue Apr  4 03:08:09 2017] GET /admin/login/?next%3D/admin/managesys/course/add => generated 1675 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 23/93] 61.151.217.45 () {38 vars in 738 bytes} [Tue Apr  4 06:19:55 2017] GET /admin/login/?next%253D/admin/managesys/course/add => generated 1677 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 32/94] 112.90.82.218 () {38 vars in 735 bytes} [Tue Apr  4 10:18:31 2017] GET /admin/login/?next%25253D/admin/managesys/course/add => generated 1679 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 24/95] 61.151.226.189 () {38 vars in 700 bytes} [Tue Apr  4 10:18:39 2017] GET /admin/login/?next%25253D/admin/managesys/course/add => generated 1679 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 33/96] 180.163.2.116 () {38 vars in 703 bytes} [Tue Apr  4 13:19:35 2017] GET /admin/login/?next%2525253D/admin/managesys/course/add => generated 1681 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 25/97] 112.90.82.218 () {38 vars in 743 bytes} [Tue Apr  4 16:05:22 2017] GET /admin/login/?next%252525253D/admin/managesys/course/add => generated 1683 bytes in 14 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 34/98] 183.198.61.161 () {42 vars in 826 bytes} [Wed Apr  5 06:09:29 2017] GET /index/ => generated 4777 bytes in 139 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 26/99] 183.198.61.161 () {42 vars in 804 bytes} [Wed Apr  5 06:09:29 2017] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 17/100] 112.65.193.13 () {38 vars in 607 bytes} [Thu Apr  6 04:31:57 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32456|app: 0|req: 24/101] 112.65.193.13 () {40 vars in 657 bytes} [Thu Apr  6 04:31:57 2017] GET /index/ => generated 4777 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 35/102] 101.226.65.107 () {38 vars in 608 bytes} [Thu Apr  6 07:12:45 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 18/103] 101.226.65.107 () {40 vars in 658 bytes} [Thu Apr  6 07:12:45 2017] GET /index/ => generated 4777 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 32456|app: 0|req: 25/107] 183.198.196.35 () {42 vars in 782 bytes} [Mon May  1 01:33:41 2017] GET /index/ => generated 4777 bytes in 1013 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 32459|app: 0|req: 36/108] 183.198.196.35 () {42 vars in 760 bytes} [Mon May  1 01:33:42 2017] GET /favicon.ico => generated 85 bytes in 22 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32460|app: 0|req: 27/109] 183.198.196.35 () {42 vars in 770 bytes} [Mon May  1 01:33:55 2017] GET / => generated 74 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32461|app: 0|req: 19/110] 183.198.196.35 () {42 vars in 782 bytes} [Mon May  1 01:33:59 2017] GET /index/ => generated 4777 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sat May  6 15:18:11 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7686d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7686d0 pid: 12572 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 12572, cores: 1)
+spawned uWSGI worker 2 (pid: 12575, cores: 1)
+spawned uWSGI worker 3 (pid: 12576, cores: 1)
+spawned uWSGI worker 4 (pid: 12577, cores: 1)
+[pid: 12572|app: 0|req: 1/1] 183.198.61.33 () {44 vars in 810 bytes} [Sat May  6 07:18:17 2017] GET /index => generated 0 bytes in 8 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 1/2] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:18:17 2017] GET /index/ => generated 5606 bytes in 61 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12576|app: 0|req: 1/3] 183.198.61.33 () {42 vars in 759 bytes} [Sat May  6 07:18:17 2017] GET /favicon.ico => generated 2495 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 2/4] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:18:22 2017] GET /index/ => generated 5606 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 2/5] 183.198.61.33 () {42 vars in 769 bytes} [Sat May  6 07:19:50 2017] GET / => generated 2462 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12577|app: 0|req: 1/6] 183.198.61.33 () {42 vars in 781 bytes} [Sat May  6 07:19:55 2017] GET /index/ => generated 5606 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 3/7] 183.198.61.33 () {50 vars in 943 bytes} [Sat May  6 07:20:19 2017] POST /search => generated 3 bytes in 83 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 3/8] 183.198.61.33 () {50 vars in 943 bytes} [Sat May  6 07:20:24 2017] POST /search => generated 3 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 4/9] 183.198.61.33 () {50 vars in 943 bytes} [Sat May  6 07:20:32 2017] POST /search => generated 2 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Class matching query does not exist.
+[pid: 12576|app: 0|req: 4/10] 183.198.61.33 () {50 vars in 943 bytes} [Sat May  6 07:20:48 2017] POST /search => generated 4 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12572|app: 0|req: 2/11] 183.198.61.33 () {50 vars in 943 bytes} [Sat May  6 07:21:08 2017] POST /search => generated 59 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 5/12] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:07 2017] GET /index/ => generated 5606 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 5/13] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:09 2017] GET /index/ => generated 5606 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 6/14] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:38 2017] GET /index/ => generated 5606 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 6/15] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:41 2017] GET /index/ => generated 5606 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 7/16] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:43 2017] GET /index/ => generated 5606 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 7/17] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:45 2017] GET /index/ => generated 5606 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 8/18] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:25:49 2017] GET /index/ => generated 5606 bytes in 49 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 8/19] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:27:51 2017] GET /index/ => generated 5606 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 9/20] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:29:06 2017] GET /index/ => generated 5606 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 9/21] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:29:13 2017] GET /index/ => generated 5606 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 10/22] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:31 2017] GET /index/ => generated 5606 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 10/23] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:34 2017] GET /index/ => generated 5606 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 11/24] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:35 2017] GET /index/ => generated 5606 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 11/25] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:35 2017] GET /index/ => generated 5606 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 12/26] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 40 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 12/27] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 13/28] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 13/29] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 14/30] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 14/31] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:36 2017] GET /index/ => generated 5606 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 15/32] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:37 2017] GET /index/ => generated 5606 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 15/33] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:37 2017] GET /index/ => generated 5606 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 16/34] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:37 2017] GET /index/ => generated 5606 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 16/35] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:37 2017] GET /index/ => generated 5606 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 17/36] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:30:37 2017] GET /index/ => generated 5606 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /wechat
+[pid: 12576|app: 0|req: 17/37] 183.198.61.33 () {42 vars in 781 bytes} [Sat May  6 07:46:28 2017] GET /wechat => generated 2480 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat
+[pid: 12577|app: 0|req: 2/38] 183.198.61.33 () {44 vars in 812 bytes} [Sat May  6 07:46:37 2017] GET /wechat => generated 2480 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sat May  6 16:02:34 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /
+[pid: 12575|app: 0|req: 18/39] 119.147.32.253 () {26 vars in 288 bytes} [Sat May  6 09:15:09 2017] GET / => generated 2467 bytes in 10 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 18/40] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 09:33:36 2017] GET / => generated 2463 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 19/41] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 09:33:36 2017] GET / => generated 2463 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12577|app: 0|req: 3/42] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 09:33:36 2017] GET / => generated 2463 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 19/43] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 10:00:50 2017] GET / => generated 2463 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 20/44] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 10:00:50 2017] GET / => generated 2463 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12577|app: 0|req: 4/45] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 10:00:50 2017] GET / => generated 2463 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /proxy.html
+[pid: 12575|app: 0|req: 21/46] 219.133.49.231 () {36 vars in 452 bytes} [Sat May  6 10:01:13 2017] GET /proxy.html => generated 2487 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 20/47] 114.215.45.101 () {32 vars in 377 bytes} [Sat May  6 10:48:45 2017] GET / => generated 2463 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12577|app: 0|req: 5/48] 71.6.146.185 () {34 vars in 548 bytes} [Sat May  6 10:59:34 2017] GET / => generated 2463 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 22/49] 183.60.48.110 () {34 vars in 412 bytes} [Sat May  6 12:34:56 2017] GET / => generated 2463 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 21/50] 123.151.42.61 () {36 vars in 430 bytes} [Sat May  6 12:39:13 2017] GET / => generated 2456 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 23/51] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 17:49:27 2017] GET / => generated 2463 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12577|app: 0|req: 6/52] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 17:49:27 2017] GET / => generated 2463 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 24/53] 101.226.103.146 () {34 vars in 414 bytes} [Sat May  6 17:49:27 2017] GET / => generated 2463 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12576|app: 0|req: 22/54] 114.215.45.79 () {32 vars in 375 bytes} [Sat May  6 18:18:35 2017] GET / => generated 2462 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12577|app: 0|req: 7/55] 183.57.53.197 () {38 vars in 637 bytes} [Sat May  6 21:20:45 2017] GET / => generated 2463 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12575|app: 0|req: 25/56] 125.39.207.33 () {34 vars in 412 bytes} [Sat May  6 22:57:21 2017] GET / => generated 2463 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:15:49 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:18:33 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+[pid: 12576|app: 0|req: 23/57] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:18:35 2017] GET /index/ => generated 5606 bytes in 72 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 26/58] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:18:41 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 8/59] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:48 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 27/60] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:51 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 24/61] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:52 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 28/62] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:53 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 9/63] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:53 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 25/64] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:54 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 29/65] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:54 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 10/66] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:57 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 3/67] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 30/68] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 26/69] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 11/70] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 4/71] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 31/72] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:21:58 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 27/73] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:22:24 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 12/74] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:22:29 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 32/75] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:22:30 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 28/76] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:26 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 13/77] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:28 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 33/78] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:30 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 29/79] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:30 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 14/80] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:30 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 34/81] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:30 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 30/82] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:31 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 15/83] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:31 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 35/84] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:23:31 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:24:18 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 31/85] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:20 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 16/86] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:23 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 5/87] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:25 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 36/88] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:25 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 32/89] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:26 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 17/90] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:26 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 37/91] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:26 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 6/92] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:24:50 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 38/93] 183.198.60.138 () {42 vars in 751 bytes} [Sun May  7 02:25:26 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12576|app: 0|req: 33/94] 183.198.60.138 () {40 vars in 664 bytes} [Sun May  7 02:25:26 2017] GET /favicon.ico => generated 2495 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12577|app: 0|req: 18/95] 183.198.60.138 () {40 vars in 724 bytes} [Sun May  7 02:25:26 2017] GET /favicon.ico => generated 2495 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 39/96] 183.198.60.138 () {42 vars in 751 bytes} [Sun May  7 02:25:51 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 34/97] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:26:26 2017] GET /index/ => generated 5606 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 40/98] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:26:32 2017] GET /wechat/ => generated 2483 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 35/99] 183.198.60.138 () {42 vars in 780 bytes} [Sun May  7 02:26:36 2017] GET /time/ => generated 63 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12572|app: 0|req: 7/100] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:26:47 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+"'stname'"
+[pid: 12575|app: 0|req: 41/101] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:26:56 2017] GET /search => generated 4 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 19/102] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:14 2017] GET /search/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 36/103] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:14 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 42/104] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:15 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 20/105] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:15 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 37/106] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 43/107] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12572|app: 0|req: 8/108] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 21/109] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 44/110] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 38/111] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:16 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 22/112] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:17 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:28:34 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /search/
+[pid: 12575|app: 0|req: 45/113] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:36 2017] GET /search/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 39/114] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:40 2017] GET /search/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 46/115] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:41 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 40/116] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:41 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 23/117] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:41 2017] GET /search/ => generated 2483 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 47/118] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:41 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 41/119] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:41 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 24/120] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 48/121] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 42/122] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 25/123] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 49/124] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 43/125] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:42 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 26/126] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:43 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 50/127] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:43 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 44/128] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:43 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 27/129] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:43 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12572|app: 0|req: 9/130] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:43 2017] GET /search/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 51/131] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:44 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 45/132] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:44 2017] GET /search/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 28/133] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:44 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 52/134] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:44 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 46/135] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:44 2017] GET /search/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 53/136] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:45 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12577|app: 0|req: 29/137] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:28:45 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 47/138] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:26 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12572|app: 0|req: 10/139] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:28 2017] GET /search/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 54/140] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:28 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+[pid: 12576|app: 0|req: 48/141] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:29 2017] GET /search/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /search/
+uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 296]
+IOError: write error
+[pid: 12577|app: 0|req: 30/142] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:29 2017] GET /search/ => generated 0 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (0 switches on core 0)
+Not Found: /search/
+[pid: 12575|app: 0|req: 55/143] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:30:29 2017] GET /search/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wecaht/
+[pid: 12576|app: 0|req: 49/144] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:30:43 2017] GET /wecaht/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat
+[pid: 12577|app: 0|req: 31/145] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:30:49 2017] GET /wechat => generated 2480 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 56/146] 183.198.60.138 () {42 vars in 780 bytes} [Sun May  7 02:31:20 2017] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 12572|app: 0|req: 11/147] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:31:20 2017] GET /admin/ => generated 0 bytes in 38 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 57/148] 183.198.60.138 () {42 vars in 819 bytes} [Sun May  7 02:31:20 2017] GET /admin/login/?next=/admin/ => generated 1653 bytes in 124 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+Not Found: /wechat
+[pid: 12576|app: 0|req: 50/149] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:31:28 2017] GET /wechat => generated 2480 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 32/150] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:31:47 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:32:13 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 58/151] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:16 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 51/152] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:17 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 33/153] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:18 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 59/154] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:18 2017] GET /wechat/ => generated 2483 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 52/155] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:18 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 34/156] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:18 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 60/157] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:18 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 53/158] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:19 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 35/159] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:19 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 61/160] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:19 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 54/161] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:19 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 36/162] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:19 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 62/163] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:20 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 12/164] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:20 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 63/165] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:20 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 55/166] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:20 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 37/167] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:21 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 64/168] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:21 2017] GET /wechat/ => generated 2483 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 56/169] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:21 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 13/170] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:21 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 38/171] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:21 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 65/172] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:30 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 57/173] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:30 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 14/174] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:31 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 66/175] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:32 2017] GET /wechat/ => generated 2483 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 58/176] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:32 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 39/177] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:32:33 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 15/178] 183.198.60.138 () {42 vars in 751 bytes} [Sun May  7 02:32:47 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat
+[pid: 12575|app: 0|req: 67/179] 183.198.60.138 () {42 vars in 749 bytes} [Sun May  7 02:32:54 2017] GET /wechat => generated 2480 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 59/180] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:16 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 40/181] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:20 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 68/182] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:21 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 60/183] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:46 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 16/184] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:49 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 41/185] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:51 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 69/186] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:52 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 61/187] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:53 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 17/188] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:53 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 70/189] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:37:53 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:38:15 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 62/190] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:19 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 42/191] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:21 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 71/192] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:22 2017] GET /wechat/ => generated 2483 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 63/193] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:23 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 72/194] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:23 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 43/195] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:24 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 64/196] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:24 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 73/197] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:25 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 44/198] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:26 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 18/199] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:27 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 74/200] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:28 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 65/201] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:29 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 45/202] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:29 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 75/203] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:38:30 2017] GET /wechat/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 66/204] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:38:52 2017] GET /hello/ => generated 11 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 19/205] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:43:26 2017] GET /wechat/ => generated 2483 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 76/206] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:43:54 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 67/207] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:45:43 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:48:45 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 46/208] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:48 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 20/209] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:48 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 77/210] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 68/211] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 47/212] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 78/213] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 69/214] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 48/215] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:49 2017] GET /wechat/ => generated 2483 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 21/216] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:50 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 79/217] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:50 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 70/218] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:50 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 49/219] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:50 2017] GET /wechat/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 80/220] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:52 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 71/221] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:53 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 81/222] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:53 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 72/223] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:54 2017] GET /wechat/ => generated 2483 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 82/224] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:54 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 50/225] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:54 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 22/226] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:54 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 83/227] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:55 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 73/228] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:55 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 84/229] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:56 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 51/230] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:56 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 74/231] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:57 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 85/232] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:58 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 52/233] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:59 2017] GET /wechat/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 23/234] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:48:59 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 75/235] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:00 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 86/236] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:00 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 53/237] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:00 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 87/238] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:00 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 76/239] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:00 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 54/240] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:01 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 88/241] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:01 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 77/242] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:02 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 55/243] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:02 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 89/244] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:02 2017] GET /wechat/ => generated 2483 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 78/245] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:02 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 56/246] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:03 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 90/247] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:03 2017] GET /wechat/ => generated 2483 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12572|app: 0|req: 24/248] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:04 2017] GET /wechat/ => generated 2483 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12575|app: 0|req: 91/249] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:04 2017] GET /wechat/ => generated 2483 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12576|app: 0|req: 79/250] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:05 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /wechat/
+[pid: 12577|app: 0|req: 57/251] 183.198.60.138 () {44 vars in 815 bytes} [Sun May  7 02:49:06 2017] GET /wechat/ => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 92/252] 183.198.60.138 () {42 vars in 782 bytes} [Sun May  7 02:49:53 2017] GET /index/ => generated 5606 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 80/253] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:03 2017] GET /index/ => generated 5606 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 93/254] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:04 2017] GET /index/ => generated 5606 bytes in 40 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 81/255] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 94/256] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 82/257] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 95/258] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 83/259] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 96/260] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:05 2017] GET /index/ => generated 5606 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 84/261] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:06 2017] GET /index/ => generated 5606 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12575|app: 0|req: 97/262] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:07 2017] GET /index/ => generated 5606 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 12576|app: 0|req: 85/263] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:52:09 2017] GET /index/ => generated 5606 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Class matching query does not exist.
+[pid: 12575|app: 0|req: 98/264] 183.198.60.138 () {50 vars in 944 bytes} [Sun May  7 02:52:13 2017] POST /search => generated 4 bytes in 213 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Sun May  7 10:57:39 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a1e6d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a1e6d0 pid: 14880 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 14880, cores: 1)
+spawned uWSGI worker 2 (pid: 14883, cores: 1)
+spawned uWSGI worker 3 (pid: 14884, cores: 1)
+spawned uWSGI worker 4 (pid: 14885, cores: 1)
+[pid: 14880|app: 0|req: 1/1] 183.198.60.138 () {44 vars in 813 bytes} [Sun May  7 02:57:42 2017] GET /index/ => generated 5606 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+47f1831797e9193307a8fd50297932d247ed1a2a
+signature is 
+
+2
+[pid: 14883|app: 0|req: 1/2] 183.198.60.138 () {42 vars in 784 bytes} [Sun May  7 02:57:48 2017] GET /wechat/ => generated 5 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+b22302dbd8ae4f9bb1e51540c8d424d7bec1828c
+signature is 
+b22302dbd8ae4f9bb1e51540c8d424d7bec1828c
+1.2
+[pid: 14884|app: 0|req: 1/3] 101.226.233.152 () {36 vars in 664 bytes} [Sun May  7 02:57:54 2017] GET /wechat/?signature=b22302dbd8ae4f9bb1e51540c8d424d7bec1828c&echostr=1367824365244091702&timestamp=1494125874&nonce=960671863 => generated 19 bytes in 14 msecs (HTTP/1.0 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+ad0dc4543ad76e4bcc4924108dd71fb4cb9459a0
+signature is 
+ad0dc4543ad76e4bcc4924108dd71fb4cb9459a0
+1.2
+[pid: 14883|app: 0|req: 2/4] 182.254.86.157 () {38 vars in 717 bytes} [Sun May  7 02:59:08 2017] POST /wechat/?signature=ad0dc4543ad76e4bcc4924108dd71fb4cb9459a0&timestamp=1494125948&nonce=403231980&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+9a231b127ef980af401b10f31b936415bc9372e5
+signature is 
+9a231b127ef980af401b10f31b936415bc9372e5
+1.2
+[pid: 14880|app: 0|req: 2/5] 182.254.86.152 () {38 vars in 717 bytes} [Sun May  7 02:59:55 2017] POST /wechat/?signature=9a231b127ef980af401b10f31b936415bc9372e5&timestamp=1494125995&nonce=346832557&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+fc1afee9e01d8bc4438e34518bca230d33ad16b8
+signature is 
+fc1afee9e01d8bc4438e34518bca230d33ad16b8
+1.2
+[pid: 14885|app: 0|req: 1/6] 182.254.86.157 () {38 vars in 719 bytes} [Sun May  7 03:00:00 2017] POST /wechat/?signature=fc1afee9e01d8bc4438e34518bca230d33ad16b8&timestamp=1494126000&nonce=2054235757&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+304e67cf06af6167d3b736ef6a8f6793e7d771bd
+signature is 
+304e67cf06af6167d3b736ef6a8f6793e7d771bd
+1.2
+[pid: 14883|app: 0|req: 3/7] 182.254.86.142 () {38 vars in 717 bytes} [Sun May  7 03:32:43 2017] POST /wechat/?signature=304e67cf06af6167d3b736ef6a8f6793e7d771bd&timestamp=1494127963&nonce=927394860&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 27 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+ab12dc553f4dd03228bf3cc06c97b18fa8b1f547
+signature is 
+ab12dc553f4dd03228bf3cc06c97b18fa8b1f547
+1.2
+[pid: 14880|app: 0|req: 3/8] 182.254.86.152 () {38 vars in 717 bytes} [Sun May  7 03:32:47 2017] POST /wechat/?signature=ab12dc553f4dd03228bf3cc06c97b18fa8b1f547&timestamp=1494127967&nonce=903227155&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 14880|app: 0|req: 4/9] 183.57.53.197 () {38 vars in 644 bytes} [Sun May  7 05:22:19 2017] GET /hello => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 14883|app: 0|req: 4/10] 183.57.53.197 () {40 vars in 694 bytes} [Sun May  7 05:22:19 2017] GET /hello/ => generated 11 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 14884|app: 0|req: 2/11] 183.57.53.197 () {38 vars in 685 bytes} [Sun May  7 05:22:19 2017] GET /admin/login/?next%3D/admin => generated 1654 bytes in 252 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 37]
+[pid: 14880|app: 0|req: 5/15] 183.57.53.196 () {38 vars in 644 bytes} [Mon May  8 04:24:10 2017] GET /index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 14883|app: 0|req: 5/16] 183.57.53.196 () {40 vars in 694 bytes} [Mon May  8 04:24:10 2017] GET /index/ => generated 5606 bytes in 163 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+tmp is 
+9ee22b28eeb93a788111b94b651423dc882a8b3f
+signature is 
+9ee22b28eeb93a788111b94b651423dc882a8b3f
+1.2
+[pid: 14884|app: 0|req: 3/33] 101.226.233.147 () {36 vars in 664 bytes} [Tue May 16 00:16:34 2017] GET /wechat/?signature=9ee22b28eeb93a788111b94b651423dc882a8b3f&echostr=5428374467908654322&timestamp=1494893794&nonce=169288527 => generated 19 bytes in 81 msecs (HTTP/1.0 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /
+[pid: 14880|app: 0|req: 6/34] 183.198.61.23 () {42 vars in 774 bytes} [Tue May 16 00:21:06 2017] GET / => generated 2571 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 14883|app: 0|req: 6/35] 183.198.61.23 () {42 vars in 758 bytes} [Tue May 16 00:21:06 2017] GET /favicon.ico => generated 2604 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+tmp is 
+47f1831797e9193307a8fd50297932d247ed1a2a
+signature is 
+
+2
+[pid: 14884|app: 0|req: 4/36] 183.198.61.23 () {42 vars in 788 bytes} [Tue May 16 00:21:18 2017] GET /wechat/ => generated 5 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+51761b7e5733e13edc5bda8fc7a5f1d74da5e3df
+signature is 
+51761b7e5733e13edc5bda8fc7a5f1d74da5e3df
+1.2
+[pid: 14880|app: 0|req: 7/37] 182.254.86.147 () {38 vars in 717 bytes} [Tue May 16 01:05:10 2017] POST /wechat/?signature=51761b7e5733e13edc5bda8fc7a5f1d74da5e3df&timestamp=1494896710&nonce=244949851&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+9cf4b2b1cdca3fdebe98da9a5a314dc76b9b289c
+signature is 
+9cf4b2b1cdca3fdebe98da9a5a314dc76b9b289c
+1.2
+[pid: 14885|app: 0|req: 2/38] 182.254.86.147 () {38 vars in 717 bytes} [Tue May 16 01:05:16 2017] POST /wechat/?signature=9cf4b2b1cdca3fdebe98da9a5a314dc76b9b289c&timestamp=1494896716&nonce=438311739&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 0 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+a1c3d1391005793def265a04f1b7d9efc3f2b027
+signature is 
+a1c3d1391005793def265a04f1b7d9efc3f2b027
+1.2
+[pid: 14884|app: 0|req: 5/39] 101.226.233.147 () {36 vars in 666 bytes} [Tue May 16 01:08:27 2017] GET /wechat/?signature=a1c3d1391005793def265a04f1b7d9efc3f2b027&echostr=3185876917758680843&timestamp=1494896907&nonce=1159012042 => generated 19 bytes in 1 msecs (HTTP/1.0 200) 2 headers in 88 bytes (1 switches on core 0)
+tmp is 
+47f1831797e9193307a8fd50297932d247ed1a2a
+signature is 
+
+2
+[pid: 14885|app: 0|req: 3/40] 183.198.61.23 () {42 vars in 788 bytes} [Tue May 16 01:08:39 2017] GET /wechat/ => generated 5 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Tue May 16 09:10:34 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16306e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x16306e0 pid: 29118 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 29118, cores: 1)
+spawned uWSGI worker 2 (pid: 29121, cores: 1)
+spawned uWSGI worker 3 (pid: 29122, cores: 1)
+spawned uWSGI worker 4 (pid: 29123, cores: 1)
+Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 244, in _legacy_get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 62, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 80, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 270, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 313, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 306, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "./teacher/urls.py", line 20, in <module>
+    from wechat.views import WeChat
+  File "./wechat/views.py", line 57
+    return HttpResponse(response, content_type="application/xml")return HttpResponse('error')
+                                                                      ^
+SyntaxError: invalid syntax
+[pid: 29118|app: 0|req: 1/1] 182.254.86.157 () {38 vars in 719 bytes} [Tue May 16 01:10:43 2017] POST /wechat/?signature=abbe0f4c78a4ec2890f6eec6d7fcceca6c9651a9&timestamp=1494897043&nonce=1516954984&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 98906 bytes in 280 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 244, in _legacy_get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 62, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 80, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 270, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 313, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 306, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "./teacher/urls.py", line 20, in <module>
+    from wechat.views import WeChat
+  File "./wechat/views.py", line 57
+    return HttpResponse(response, content_type="application/xml")return HttpResponse('error')
+                                                                      ^
+SyntaxError: invalid syntax
+[pid: 29121|app: 0|req: 1/2] 182.254.86.142 () {38 vars in 717 bytes} [Tue May 16 01:10:46 2017] POST /wechat/?signature=3dc71588e873ffac799d0979071dc5e6f9191327&timestamp=1494897046&nonce=470613766&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 98897 bytes in 97 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 244, in _legacy_get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 62, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 80, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 270, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 313, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 306, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "./teacher/urls.py", line 20, in <module>
+    from wechat.views import WeChat
+  File "./wechat/views.py", line 57
+    return HttpResponse(response, content_type="application/xml")return HttpResponse('error')
+                                                                      ^
+SyntaxError: invalid syntax
+[pid: 29122|app: 0|req: 1/3] 182.254.86.157 () {38 vars in 719 bytes} [Tue May 16 01:10:59 2017] POST /wechat/?signature=938f1e8d831edff370ffeb28f3aeca6cbe89019b&timestamp=1494897059&nonce=1173360183&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 98906 bytes in 114 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 244, in _legacy_get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 62, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 80, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 27, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 270, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 313, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 306, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "./teacher/urls.py", line 20, in <module>
+    from wechat.views import WeChat
+  File "./wechat/views.py", line 57
+    return HttpResponse(response, content_type="application/xml")return HttpResponse('error')
+                                                                      ^
+SyntaxError: invalid syntax
+[pid: 29121|app: 0|req: 2/4] 182.254.86.147 () {38 vars in 719 bytes} [Tue May 16 01:11:04 2017] POST /wechat/?signature=984ca79cad0c402d8515383d25fa87faab32bcec&timestamp=1494897064&nonce=1028367581&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 98906 bytes in 90 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 270, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 313, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 306, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "./teacher/urls.py", line 20, in <module>
+    from wechat.views import WeChat
+  File "./wechat/views.py", line 57
+    return HttpResponse(response, content_type="application/xml")return HttpResponse('error')
+                                                                      ^
+SyntaxError: invalid syntax
+[pid: 29122|app: 0|req: 2/5] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:11:12 2017] GET /wechat/ => generated 85585 bytes in 96 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 3/6] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:33:14 2017] GET /wechat/ => generated 13 bytes in 1196 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1765012062
+[pid: 29122|app: 0|req: 3/7] 182.254.86.142 () {38 vars in 719 bytes} [Tue May 16 01:33:21 2017] POST /wechat/?signature=d5d8ba322a84c1656fd234963d2e1888d028c664&timestamp=1494898400&nonce=1765012062&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 44 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+125864198
+[pid: 29121|app: 0|req: 4/8] 182.254.86.152 () {38 vars in 717 bytes} [Tue May 16 01:33:27 2017] POST /wechat/?signature=a1b8fdd1509452ca132c631ac823d9a0dfce6dbc&timestamp=1494898407&nonce=125864198&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1494898450
+1863164738
+[pid: 29118|app: 0|req: 2/9] 182.254.86.152 () {38 vars in 719 bytes} [Tue May 16 01:34:10 2017] POST /wechat/?signature=521ff6bf7114fa1d5166391be530d1a298ee5aef&timestamp=1494898450&nonce=1863164738&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 58 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 5/10] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:34:17 2017] GET /wechat/ => generated 13 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Tue May 16 09:34:28 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+None
+None
+[pid: 29123|app: 0|req: 1/11] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:34:37 2017] GET /wechat/ => generated 13 bytes in 51 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 6/12] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:34:38 2017] GET /wechat/ => generated 13 bytes in 9 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 29118|app: 0|req: 3/13] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:43 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29122|app: 0|req: 4/14] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:46 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29122|app: 0|req: 5/15] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:47 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 29118|app: 0|req: 4/16] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:47 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 7/17] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:47 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29122|app: 0|req: 6/18] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 29118|app: 0|req: 5/19] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 8/20] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 29123|app: 0|req: 2/21] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29122|app: 0|req: 7/22] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+[pid: 29121|app: 0|req: 9/23] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:48 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 29118|app: 0|req: 6/24] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:40:51 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Tue May 16 09:41:25 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb9f6e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xb9f6e0 pid: 30931 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 30931, cores: 1)
+spawned uWSGI worker 2 (pid: 30934, cores: 1)
+spawned uWSGI worker 3 (pid: 30935, cores: 1)
+spawned uWSGI worker 4 (pid: 30936, cores: 1)
+None
+None
+[pid: 30931|app: 0|req: 1/1] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:41:27 2017] GET /wechat/ => generated 15 bytes in 55 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 1/2] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:41:28 2017] GET /wechat/ => generated 15 bytes in 56 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30935|app: 0|req: 1/3] 183.198.61.23 () {44 vars in 819 bytes} [Tue May 16 01:41:36 2017] GET /wechat/ => generated 15 bytes in 65 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+Not Found: /
+[pid: 30934|app: 0|req: 2/4] 183.57.53.222 () {38 vars in 634 bytes} [Wed May 17 02:47:54 2017] GET / => generated 2571 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+[pid: 30931|app: 0|req: 2/5] 183.198.61.94 () {42 vars in 786 bytes} [Wed May 17 09:00:32 2017] GET /index/ => generated 5606 bytes in 100 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 30934|app: 0|req: 3/6] 183.198.61.94 () {42 vars in 764 bytes} [Wed May 17 09:00:33 2017] GET /favicon.ico => generated 2604 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 30935|app: 0|req: 2/7] 183.198.61.94 () {42 vars in 786 bytes} [Wed May 17 09:00:43 2017] GET /wechat => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 1/8] 183.198.61.94 () {42 vars in 788 bytes} [Wed May 17 09:00:43 2017] GET /wechat/ => generated 13 bytes in 53 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495011976
+768086569
+[pid: 30934|app: 0|req: 4/9] 182.254.86.142 () {38 vars in 717 bytes} [Wed May 17 09:06:16 2017] POST /wechat/?signature=e2e2915aa8307326a521d883eaeea79eb1c920ba&timestamp=1495011976&nonce=768086569&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+-- unavailable modifier requested: 65 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+1495033289
+1198043627
+[pid: 30931|app: 0|req: 3/13] 182.254.86.142 () {38 vars in 719 bytes} [Wed May 17 15:01:29 2017] POST /wechat/?signature=7e96abccf7b28c619e59ec7980f95a71730496ab&timestamp=1495033289&nonce=1198043627&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+[pid: 30935|app: 0|req: 3/14] 183.198.17.202 () {42 vars in 787 bytes} [Wed May 17 15:03:40 2017] GET /index/ => generated 5606 bytes in 51 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 5/15] 183.198.17.202 () {42 vars in 789 bytes} [Wed May 17 15:03:46 2017] GET /wechat/ => generated 15 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495033435
+618504015
+[pid: 30931|app: 0|req: 4/16] 182.254.86.152 () {38 vars in 717 bytes} [Wed May 17 15:03:56 2017] POST /wechat/?signature=31dfc74345ffb93cd0e6455ae488f998e5dac69e&timestamp=1495033435&nonce=618504015&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495033442
+1165198938
+aa866f1070ec36b08e9811df682e30cf8ffbb384
+[pid: 30936|app: 0|req: 2/17] 182.254.86.157 () {38 vars in 719 bytes} [Wed May 17 15:04:02 2017] POST /wechat/?signature=aa866f1070ec36b08e9811df682e30cf8ffbb384&timestamp=1495033442&nonce=1165198938&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 6/18] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:05:09 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495033516
+1713592727
+cbf3ef0a696b063f6cf123b3f91aec25774c47fa
+[pid: 30936|app: 0|req: 3/19] 182.254.86.152 () {38 vars in 719 bytes} [Wed May 17 15:05:16 2017] POST /wechat/?signature=cbf3ef0a696b063f6cf123b3f91aec25774c47fa&timestamp=1495033516&nonce=1713592727&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Wed May 17 23:06:11 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8076).
+bind(): Address already in use [core/socket.c line 763]
+1495033593
+1621143426
+[pid: 30931|app: 0|req: 5/20] 182.254.86.142 () {38 vars in 719 bytes} [Wed May 17 15:06:33 2017] POST /wechat/?signature=24a09c640c7d44d7645867d0387da5a303bbd539&timestamp=1495033593&nonce=1621143426&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 7/21] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:52 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 4/22] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:54 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30935|app: 0|req: 4/23] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:55 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30931|app: 0|req: 6/24] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:55 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 8/25] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:55 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 5/26] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:56 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30935|app: 0|req: 5/27] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:57 2017] GET /wechat/ => generated 15 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30931|app: 0|req: 7/28] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:57 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 9/29] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:58 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30935|app: 0|req: 6/30] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:58 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30931|app: 0|req: 8/31] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:58 2017] GET /wechat/ => generated 15 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 6/32] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:58 2017] GET /wechat/ => generated 13 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 10/33] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:59 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30935|app: 0|req: 7/34] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:14:59 2017] GET /wechat/ => generated 15 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30931|app: 0|req: 9/35] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:15:00 2017] GET /wechat/ => generated 15 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+[pid: 30934|app: 0|req: 11/36] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:15:00 2017] GET /wechat/ => generated 15 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 7/37] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:15:00 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495034108
+425925541
+[pid: 30935|app: 0|req: 8/38] 182.254.86.147 () {38 vars in 717 bytes} [Wed May 17 15:15:08 2017] POST /wechat/?signature=79532ccfa22dc92c3a40417211b00a5faf732bab&timestamp=1495034108&nonce=425925541&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+None
+None
+None
+1
+[pid: 30936|app: 0|req: 8/39] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:21:03 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+1495034519
+793416934
+[pid: 30934|app: 0|req: 12/40] 182.254.86.142 () {38 vars in 717 bytes} [Wed May 17 15:22:00 2017] POST /wechat/?signature=f93af1099c2ddcd017ac546f5f3bba6fada043ea&timestamp=1495034519&nonce=793416934&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 16 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Wed May 17 23:23:02 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14356e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x14356e0 pid: 28433 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 28433, cores: 1)
+spawned uWSGI worker 2 (pid: 28437, cores: 1)
+spawned uWSGI worker 3 (pid: 28438, cores: 1)
+spawned uWSGI worker 4 (pid: 28439, cores: 1)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495034593</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[嗯嗯]]></Content>
+<MsgId>6421124683752267978</MsgId>
+</xml>
+4.1
+5
+[pid: 28433|app: 0|req: 1/1] 182.254.86.142 () {38 vars in 717 bytes} [Wed May 17 15:23:13 2017] POST /wechat/?signature=248c43c35a9c88a9ff9dddf9f0830a199484ba90&timestamp=1495034593&nonce=668124190&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 277 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495034598</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我擦]]></Content>
+<MsgId>6421124705227104461</MsgId>
+</xml>
+4.1
+5
+[pid: 28437|app: 0|req: 1/2] 182.254.86.157 () {38 vars in 719 bytes} [Wed May 17 15:23:18 2017] POST /wechat/?signature=233d76875a5b2c6f3658b6d7817cc8a324c2de17&timestamp=1495034598&nonce=1645976527&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 277 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495034601</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[可以]]></Content>
+<MsgId>6421124718112006353</MsgId>
+</xml>
+4.1
+5
+[pid: 28439|app: 0|req: 1/3] 182.254.86.142 () {38 vars in 717 bytes} [Wed May 17 15:23:21 2017] POST /wechat/?signature=511dce9d2d2c8198fe6d5327c5877db7b5df334e&timestamp=1495034601&nonce=201221877&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 277 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 28437|app: 0|req: 2/4] 183.198.17.202 () {44 vars in 820 bytes} [Wed May 17 15:24:16 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495034752</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[总算是有反应了]]></Content>
+<MsgId>6421125366652068078</MsgId>
+</xml>
+4.1
+5
+[pid: 28433|app: 0|req: 2/5] 182.254.86.157 () {38 vars in 717 bytes} [Wed May 17 15:25:52 2017] POST /wechat/?signature=12c5973abd5c650533a11432326c342473fe062e&timestamp=1495034752&nonce=142272352&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 277 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495035890</CreateTime>
+<MsgType><![CDATA[location]]></MsgType>
+<Location_X>39.204090</Location_X>
+<Location_Y>118.595474</Location_Y>
+<Scale>16</Scale>
+<Label><![CDATA[曹妃甸区八里滩养殖场梅苑2号楼宿舍附近]]></Label>
+<MsgId>6421130254324851129</MsgId>
+</xml>
+4.1
+5
+[pid: 28438|app: 0|req: 1/6] 182.254.86.157 () {38 vars in 717 bytes} [Wed May 17 15:44:50 2017] POST /wechat/?signature=3747be6c893afb84869c888b7901ddb68dcf093e&timestamp=1495035890&nonce=378358377&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 281 bytes in 53 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 28437|app: 0|req: 3/7] 101.226.33.226 () {38 vars in 725 bytes} [Wed May 17 15:45:00 2017] GET /wechat => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+[pid: 28439|app: 0|req: 2/8] 101.226.33.226 () {40 vars in 776 bytes} [Wed May 17 15:45:00 2017] GET /wechat/ => generated 13 bytes in 0 msecs (HTTP/1.1 400) 2 headers in 97 bytes (1 switches on core 0)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495036455</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[妈的]]></Content>
+<MsgId>6421132680981373439</MsgId>
+</xml>
+4.1
+5
+[pid: 28433|app: 0|req: 3/9] 182.254.86.147 () {38 vars in 719 bytes} [Wed May 17 15:54:16 2017] POST /wechat/?signature=91c6135f3cadf9770e7ada6ab05552368a843fb5&timestamp=1495036455&nonce=2139330463&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 277 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Wed May 17 23:54:41 2017] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-86-generic #131-Ubuntu SMP Thu May 12 23:33:13 UTC 2016
+nodename: VM-80-56-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/teacher
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7884
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8076 fd 3
+Python version: 2.7.6 (default, Oct 26 2016, 20:33:43)  [GCC 4.8.4]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x219d6e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x219d6e0 pid: 30221 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 30221, cores: 1)
+spawned uWSGI worker 2 (pid: 30224, cores: 1)
+spawned uWSGI worker 3 (pid: 30225, cores: 1)
+spawned uWSGI worker 4 (pid: 30226, cores: 1)
+4
+<xml><ToUserName><![CDATA[gh_93c825dbbd3f]]></ToUserName>
+<FromUserName><![CDATA[owa5Q1DxMkKWNi5M9CnkfPVx16-Y]]></FromUserName>
+<CreateTime>1495036488</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[嗯嗯]]></Content>
+<MsgId>6421132822715294212</MsgId>
+</xml>
+4.1
+5
+[pid: 30221|app: 0|req: 1/1] 182.254.86.142 () {38 vars in 719 bytes} [Wed May 17 15:54:48 2017] POST /wechat/?signature=69a32e82ad83e488c8160c89a80d53e075b4b6be&timestamp=1495036488&nonce=1226271195&openid=owa5Q1DxMkKWNi5M9CnkfPVx16-Y => generated 285 bytes in 55 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)

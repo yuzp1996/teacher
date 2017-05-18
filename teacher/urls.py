@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from views import hello,current_datetime,hours_ahead
 from managesys.views import index,search
+from wechat.views import WeChat
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -25,4 +26,8 @@ urlpatterns = [
     url(r'^time/plus/(\d{1,2})/$',hours_ahead),
     url(r'^index/$',index),
     url(r'^search$',search),
+    url(r'^wechat/$', WeChat),
+
+
+
 ]

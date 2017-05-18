@@ -5,6 +5,22 @@ from managesys.models import Student,Course,Teacher,Score,Class
 from django.http import HttpResponse
 import json
 
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+import hashlib
+
+
+@csrf_exempt
+def wwwindex(request):
+    token = 'yuzhipeng'  
+    signature = request.GET.get('signature', '')
+    timestamp = request.GET.get('timestamp', '')
+    nonce = request.GET.get('nonce', '')
+    tmp_sig = hashlib.sha1(''.join(sorted([token, timestamp, nonce]))).hexdigest()
+    if tmp_sig == signature:
+        return HttpResponse(request.GET.get('echostr', ''))
+    return HttpResponse('error')
 
 
 # Create your views here.

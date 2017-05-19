@@ -24,6 +24,38 @@ def WeChat(request):
     # 实例化 WechatBasic 类
     wechat_instance = WechatBasic(conf=conf)
     # 验证微信公众平台的消息
+    wechat_instance.create_menu({
+
+	 'button':[
+        	{
+            	'type': 'click',
+            	'name': '今日歌曲',
+            	'key': 'V1001_TODAY_MUSIC'
+        	},
+        	{
+        	 'name': '菜单',
+           	 'sub_button': [
+                	{
+                    	'type': 'view',
+                    	'name': '搜索',
+                    	'url': 'http://www.soso.com/'
+                	},
+               		{
+                    	'type': 'view',
+                    	'name': '视频',
+                    	'url': 'http://v.qq.com/'
+                	},
+                	{
+                    	'type': 'click',
+                    	'name': '赞一下我们',
+                    	'key': 'V1001_GOOD'
+                	}
+            	]
+        }
+    ]
+
+})
+
     if not wechat_instance.check_signature(signature=signature, timestamp=timestamp, nonce=nonce):
        return HttpResponseBadRequest('Verify Failed')
     else:
@@ -49,7 +81,13 @@ def WeChat(request):
                     reply_text = 'video'
                 elif isinstance(message, ShortVideoMessage):
                     reply_text = 'shortvideo'
-                else:
+                
+		elif isinstance(message,EventMessage):
+		    if message.type == 'subscribe':
+                        reply_text = '欢迎订阅于我一生，许我一世'
+
+
+		else:
                     reply_text = 'other'
                 response = wechat_instance.response_text(content=reply_text)
                 if isinstance(message,ImageMessage):
@@ -58,8 +96,15 @@ def WeChat(request):
                 {
 	         'title':u'第一条新闻',
                  'description':u'新闻描述',
-                 'picurl':u'https://github.com/yuzp1996/myblog/blob/master/blog/static/blog/img/lovegirl.jpg',
+                 'picurl':u'https://github.com/yuzp1996/python/blob/master/wife.jpg?raw=true',
                  'url':u'https://yuzp1996.github.io/',
+                },
+                {
+                 'title':u'第二条消息',
+                 'description':u'第二条消息描述',
+
+
+
                 }
                 ])            
 

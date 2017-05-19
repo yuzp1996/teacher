@@ -29,8 +29,8 @@ def WeChat(request):
 	 'button':[
         	{
             	'type': 'click',
-            	'name': '今日歌曲',
-            	'key': 'V1001_TODAY_MUSIC'
+            	'name': '我的资料',
+            	'url': 'https://user.qzone.qq.com/1148038318?_t_=0.29004385220437'
         	},
         	{
         	 'name': '菜单',
@@ -38,7 +38,7 @@ def WeChat(request):
                 	{
                     	'type': 'view',
                     	'name': '搜索',
-                    	'url': 'http://www.soso.com/'
+                    	'url': 'https://user.qzone.qq.com/1148038318?_t_=0.29004385220437'
                 	},
                		{
                     	'type': 'view',

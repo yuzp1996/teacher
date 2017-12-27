@@ -27,5 +27,12 @@ MySQL数据库的优化等等 SQL语句什么的
 最后一个暑期了 是不是应该做些什么呢
 应该更加强壮
 
+<<<<<<< Updated upstream
 我在master上rebase了
 
+=======
+嗯嗯 这个可以有
+
+
+我打算修改了再stash
+>>>>>>> Stashed changes

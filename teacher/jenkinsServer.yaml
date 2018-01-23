@@ -1,0 +1,71 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: jenkins2
+  name: jenkins2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins2
+  template:
+    metadata:
+      labels:
+        app: jenkins2
+    spec:
+      containers:
+        - env:
+            - name: JENKINS_SERVICE_NAME
+              value: jenkins2
+            - name: JNLP_SERVICE_NAME
+              value: jenkins2
+            - name: JENKINS_PASSWORD
+              value: admin
+            - name: JENKINS_CONFIGURATION
+              value: /var/config/jenkins/jenkins.yaml
+          image: danielfbm/jenk:something
+          imagePullPolicy: Always
+          name: jenkins
+          ports:
+          - name: http
+            containerPort: 8080
+          - name: jnlp
+            containerPort: 50000
+          volumeMounts:
+            - mountPath: /var/jenkins_home
+              name: jenkins-data
+            - mountPath: /var/config/jenkins
+              name: config
+      restartPolicy: Always
+      volumes:
+        - name: config
+          configMap:
+            name: jenkins2
+            items:
+            - key: jenkins.yaml
+              path: jenkins.yaml
+        - name: jenkins-data
+          hostPath:
+            path: /data/jenkins2
+---
+
+apiVersion: v1
+kind: Serviceß
+metadata:
+  name: jenkins2
+spec:
+  type: NodePort
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+    nodePort: 60000
+  - name: jnlp
+    port: 50000
+    protocol: TCP
+    targetPort: 50000
+    nodePort: 60001
+  selector:
+    app: jenkins2

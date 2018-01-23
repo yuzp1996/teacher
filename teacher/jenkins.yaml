@@ -1,0 +1,83 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: jenkins2
+data:
+  jenkins.yaml: |
+    jenkins:
+      version: 2.60.3
+      numExecutors: 2
+      mode: NORMAL
+      useSecurity: true
+      securityRealm:
+        disableSignup: true
+        enableCaptcha: false
+      disableRememberMe: false
+      scmCheckoutRetryCount: 0
+      slaveAgentPort: 50000
+      label: master
+      noUsageStatistics: true
+      clouds:
+      - type: kubernetes
+        kubernetes:
+            name: alauda
+            serverUrl: 
+            skipTlsVerify: true
+            serverCertificate: 
+            namespace:
+            jenkinsUrl: 
+            jenkinsTunnel:
+            credentialsId: 1a12dfa4-7fc5-47a7-aa17-cc56572a41c7
+            containerCap: 40
+            retentionTimeout: 5
+            templates:
+            - type: pod
+              pod:
+                inheritFrom:
+                name: maven
+                label: maven
+                namespace: default
+                privileged: false
+                instanceCap: 500
+                connectTimeout: 100
+                idleMinutes: 0
+                serviceAccount:
+                nodeSelector:
+                nodeUsage: NORMAL
+                customWorkspaceVolumeEnabled: false
+                volumes:
+                - type: hostPath
+                  hostPath:
+                    mountPath: /tmp
+                    hostPath: /tmp/slave
+                  persistentVolumeClaim:
+                    claimName: pvcname
+                    readOnly:
+                    mountPath: 
+                containers:
+                - name: jnlp
+                  image: danielfbm/jenkins-slave-maven-centos7:latest
+                  privileged: false
+                  alwaysPullImage: false
+                  workingDir: /tmp
+                  command:
+                  args: ${computer.jnlpmac} ${computer.name}
+                  ttyEnabled: false
+                  resourceRequestCpu:
+                  resourceRequestMemory:
+                  resourceLimitCpu:
+                  resourceLimitMemory:
+
+    credentials:
+    - type: kubernetes
+      kubernetes:
+        scope: GENERAL
+        id: 1a12dfa4-7fc5-47a7-aa17-cc56572a41c7
+        description: kubernetes credentials
+
+    alauda:
+      consoleUrl: https://enterprise.alauda.cn
+      apiEndpoint: https://api.alauda.cn
+      apiToken: 123456
+      namespace: alauda
+      spaceName: dev-space
